@@ -4,10 +4,10 @@ const ConfWidget = (props) => {
   const handleClick = props.actionProvider.handleConf;
 
   return (
-    <div>
+    <div className=" w-full flex justify-center">
       <button
         onClick={handleClick}
-        className=" bg-cyan-100 border border-cyan-700 rounded p-1"
+        className=" bg-cyan-100 border text-cyan-700 border-cyan-700 rounded p-1 px-4"
       >
         Got it
       </button>
